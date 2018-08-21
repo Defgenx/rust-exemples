@@ -1,0 +1,31 @@
+[package]
+name = "rust-exemples"
+version = "0.1.0"
+authors =["Alexandre Del Vecchio <alexandre@delvecch.io>"]
+publish = false
+
+[dependencies]
+
+[[bin]]
+name = "generics"
+path = "src/work/generics/main.rs"
+
+[[bin]]
+name = "enum"
+path = "src/work/enum/main.rs"
+
+[[bin]]
+name = "closure"
+path = "src/work/closure/main.rs"
+
+[[bin]]
+name = "match"
+path = "src/work/match/main.rs"
+
+[[bin]]
+name = "lifetime"
+path = "src/work/lifetime/main.rs"
+
+[[bin]]
+name = "concurrency"
+path = "src/work/concurrency/main.rs"
